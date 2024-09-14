@@ -3,23 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
 </head>
 <body>
-    <header>gallery</header>
-    <section>
-        <img alt='my picture'>
-    </section>
-    <script>
-        
-    </script>
+    <header>
+        <h1>My Photo Gallery</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="photo-gallery">
+            <h2>My Photos</h2>
+            <div class="gallery-grid">
+                <img src="image1.jpg" alt="Description of image 1">
+                <img src="image2.jpg" alt="Description of image 2">
+                <img src="image3.jpg" alt="Description of image 3">
+                <img src="image4.jpg" alt="Description of image 4">
+                <img src="image5.jpg" alt="Description of image 5">
+                <img src="image6.jpg" alt="Description of image 6">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
-<!-- 
-Create another HTML file for your gallery.
-Structure the page with a <header> and a <section> to display images.
-Use the <img> tag to add images, ensuring each image has an appropriate alt attribute.
-Arrange the images in a visually appealing way using CSS.
-
-
--->

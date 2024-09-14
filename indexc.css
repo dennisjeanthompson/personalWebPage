@@ -1,0 +1,60 @@
+#section {
+    width: 40%;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    
+}
+#introduce {
+    font-size: 220px;
+
+}
+img {
+    margin-top: 59px;
+    width: 200px;
+    height: auto;
+    margin-bottom: -4;
+}
+p {
+    font-size:16px;
+display: flex;
+text-align: top;
+    margin-top: -10px;
+}
+strong {
+    color: rgb(0, 0, 0);
+}
+
+/* Add CSS for tablet view */
+
+#aboutme{
+
+background-color: brown;
+}
+#div-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+#body
+{
+    color:red;
+    background-color: rgb(2, 2, 114);
+  
+   
+}
+#section
+{
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
