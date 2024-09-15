@@ -4,10 +4,12 @@
     border: 1px solid rgb(235, 112, 112);
     padding: 20px;
     text-align: center;
+    background-color: rgb(109, 52, 6);
     
 }
 #introduce {
     font-size: 50px;
+
     
 
 }
@@ -45,8 +47,8 @@ background-color: rgb(95, 13, 13);
 }
 #body
 {
-    color:rgb(236, 140, 140);
-    background-color: rgb(2, 2, 114);
+    color:rgb(255, 255, 255);
+    background-color: rgb(62, 0, 185);
   
    
 }
@@ -59,4 +61,14 @@ background-color: rgb(95, 13, 13);
     text-align: center;
   
 }
-
+#hobby{
+text-decoration-line: none;
+font-size: large;
+background-color: red;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#gallery{
+    background-color: blueviolet;
+    text-decoration-line: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

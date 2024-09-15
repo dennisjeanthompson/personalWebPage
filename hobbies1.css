@@ -1,0 +1,28 @@
+
+
+body {
+   background-color: blue;/* 5-second infinite animation */
+}
+footer{
+    background-color: #48c6f0;
+}
+header{
+ color: green;
+    background-color: rgb(10, 180, 218)
+}
+p{
+    color:rgb(247, 223, 8);
+    font-weight: 20px;
+    font: optional;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
