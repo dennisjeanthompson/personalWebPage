@@ -1,0 +1,39 @@
+section{
+background-color:#e43f22;
+display: grid;
+grid-template-columns: 100px 100px 100px
+;
+color: #e43f22
+
+;
+
+    grid-gap: 100px;
+    column-gap: 400px;
+    border-radius: 8px;
+    
+    box-shadow: 10px 10px 10px rgba(3, 1, 118, 0.1)
+}
+img{
+    width:200px;
+    height:200px;
+    object-fit: cover;
+}
+@keyframes gradientAnimation {
+    0% { background-color: #ff7e5f; }
+    50% { background-color: #feb47b; }
+    100% { background-color: #ff7e5f; }
+}
+
+body {
+    animation: gradientAnimation 5s infinite; /* 5-second infinite animation */
+}
+@keyframes gradientAnimation {
+    0% { background-color: #ff7e5f; }
+    50% { background-color: #feb47b; }
+    100% { background-color: #ff7e5f; }
+}
+
+section {
+    animation: gradientAnimation 5s infinite; /* 5-second infinite animation */
+}
+

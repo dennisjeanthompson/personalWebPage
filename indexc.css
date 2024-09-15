@@ -1,13 +1,14 @@
 #section {
     width: 40%;
     margin: 0 auto;
-    border: 1px solid black;
+    border: 1px solid rgb(235, 112, 112);
     padding: 20px;
     text-align: center;
     
 }
 #introduce {
-    font-size: 220px;
+    font-size: 50px;
+    
 
 }
 img {
@@ -30,7 +31,7 @@ strong {
 
 #aboutme{
 
-background-color: brown;
+background-color: rgb(95, 13, 13);
 }
 #div-img{
     display: flex;
@@ -44,7 +45,7 @@ background-color: brown;
 }
 #body
 {
-    color:red;
+    color:rgb(236, 140, 140);
     background-color: rgb(2, 2, 114);
   
    
@@ -56,5 +57,6 @@ background-color: brown;
     border: 1px solid black;
     padding: 20px;
     text-align: center;
+  
 }
 

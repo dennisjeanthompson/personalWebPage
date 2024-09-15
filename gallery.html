@@ -19,23 +19,92 @@
     </header>
 
     <main>
-        <section id="photo-gallery">
-            <h2>My Photos</h2>
-            <div class="gallery-grid">
-                <img src="image1.jpg" alt="Description of image 1">
-                <img src="image2.jpg" alt="Description of image 2">
-                <img src="image3.jpg" alt="Description of image 3">
-                <img src="image4.jpg" alt="Description of image 4">
-                <img src="image5.jpg" alt="Description of image 5">
-                <img src="image6.jpg" alt="Description of image 6">
-            </div>
+        <h2>My Photos</h2>
+        <section >
+         
+          
+                <img src="profilePic.jpg" alt="My profile picture">
+                <img src="GrassField2.jpg" alt="A grassy field">
+                <img src="GrassField3.jpg" alt="Beautiful view of a grassy field">
+                <img src="OracleCastle.jpg" alt="A magnificent castle">
+                <img src="Village1.jpg" alt="A small village">
+                <img src="Village2.jpg" alt="A mystical water village from the unknown">
+           
         </section>
     </main>
 
     <footer>
         <p>&copy; 2024 [Your Name]. All rights reserved.</p>
     </footer>
+    <script>
+        // Add hover effect to the images
+        const images = document.querySelectorAll('img');
+        images.forEach(img => {
+            img.addEventListener('mouseenter', () => {
+                img.style.boxShadow = '0 0 15px rgba(22, 0, 0, 0.2)';
+                img.style.transition = 'box-shadow 0.5s ease-in-out';
+                img.style.cursor = 'pointer';
+        
+            });
+            img.addEventListener('mouseleave', () => {
+                img.style.boxShadow = '10px 10px 10px rgba(0, 0, 0, 0.1)';
+            });
+        });
+    //when hovering the alt message will display in the image
+   //count how many images in array
+    
+  
 
-    <script src="script.js"></script>
+
+    images.forEach((img,i) => {
+    
+      
+       if(i=== 0){
+        img.addEventListener('mouseenter', () => {
+            img.title = "My profile picture";
+        });
+    }
+    if(i === 1){
+      
+        img.addEventListener('mouseenter', () => {
+            img.title = 'A grassy field';
+        });
+    }
+    if(i === 2){
+      
+        img.addEventListener('mouseenter', () => {
+            img.title = 'Beautiful view of a grassy field';
+        });
+    }
+    if(i=== 3){
+       
+        img.addEventListener('mouseenter', () => {
+            img.title = 'A magnificent castle';
+        });
+    }
+if(i===4)
+{
+    img.addEventListener('mouseenter', () => {
+        img.title = 'A small village';
+    });
+}
+    if(i=== 5){
+        img.addEventListener('mouseenter', () => {
+            img.title = 'A mystical water village from the unknown';
+        });
+   
+    }
+      img.addEventListener('mouseleave', () => {
+        img.title = '';
+    });
+
+    
+      
+      
+    });
+
+
+</script>
+  
 </body>
 </html>
